@@ -38,8 +38,8 @@ const Contact: React.FC = () => {
     {
       icon: '📧',
       title: 'Email',
-      value: 'manibharath@northeastern.edu',
-      link: 'mailto:manibharath@northeastern.edu'
+      value: 'bhadragiri.m@northeastern.edu',
+      link: 'mailto:bhadragiri.m@northeastern.edu'
     },
     {
       icon: '🎓',
@@ -55,9 +55,9 @@ const Contact: React.FC = () => {
     },
     {
       icon: '💼',
-      title: 'GitHub',
-      value: 'github.com/manibharathb',
-      link: 'https://github.com/manibharathb'
+      title: 'LinkedIn',
+      value: 'Linkedin.com/in/manibharathbhadragiri',
+      link: 'www.linkedin.com/in/manibharathbhadragiri'
     }
   ];
 

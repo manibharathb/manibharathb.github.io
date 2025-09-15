@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
               <a href="https://github.com/manibharathb" target="_blank" rel="noopener noreferrer" className="social-link">
                 <span className="social-icon">🐙</span>
               </a>
-              <a href="mailto:manibharath@northeastern.edu" className="social-link">
+              <a href="mailto:bhadragiri.m@northeastern.edu" className="social-link">
                 <span className="social-icon">📧</span>
               </a>
             </div>

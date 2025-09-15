@@ -1,6 +1,18 @@
 .projects {
-  background: #f8f9fa;
+  background: linear-gradient(135deg, #16213e 0%, #1a1a2e 50%, #0f0f23 100%);
   padding: 80px 0;
+  position: relative;
+}
+
+.projects::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 20% 80%, rgba(74, 158, 255, 0.1) 0%, transparent 50%);
+  pointer-events: none;
 }
 
 .featured-projects {
@@ -17,17 +29,19 @@
 }
 
 .project-card {
-  background: white;
+  background: rgba(26, 26, 46, 0.8);
+  backdrop-filter: blur(20px);
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
-  border: 1px solid #e9ecef;
+  border: 1px solid rgba(74, 158, 255, 0.2);
 }
 
 .project-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  border-color: rgba(74, 158, 255, 0.4);
 }
 
 .project-card.featured {
@@ -38,7 +52,7 @@
 }
 
 .project-image {
-  background: linear-gradient(135deg, #d2b48c 0%, #f5deb3 100%);
+  background: linear-gradient(135deg, #e94560 0%, #4a9eff 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,7 +99,7 @@
 }
 
 .project-content h3 {
-  color: #333;
+  color: #ffffff;
   margin-bottom: 1rem;
   font-size: 1.5rem;
   font-weight: 600;
@@ -96,7 +110,7 @@
 }
 
 .project-content p {
-  color: #666;
+  color: #b8b8b8;
   line-height: 1.6;
   margin-bottom: 1.5rem;
   flex-grow: 1;
@@ -115,18 +129,20 @@
 }
 
 .tech-tag {
-  background: #e9ecef;
-  color: #495057;
+  background: rgba(74, 158, 255, 0.1);
+  color: #4a9eff;
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.8rem;
   font-weight: 500;
   transition: all 0.3s ease;
+  border: 1px solid rgba(74, 158, 255, 0.2);
 }
 
 .tech-tag:hover {
-  background: #d2b48c;
-  color: white;
+  background: rgba(74, 158, 255, 0.2);
+  color: #ffffff;
+  border-color: rgba(74, 158, 255, 0.4);
 }
 
 .project-links {

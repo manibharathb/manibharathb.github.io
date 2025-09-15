@@ -1,9 +1,22 @@
 .about {
   padding: 120px 0 80px;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
   min-height: 100vh;
   display: flex;
   align-items: center;
+  position: relative;
+}
+
+.about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 20% 50%, rgba(74, 158, 255, 0.1) 0%, transparent 50%),
+              radial-gradient(circle at 80% 20%, rgba(233, 69, 96, 0.1) 0%, transparent 50%);
+  pointer-events: none;
 }
 
 .about-content {
@@ -26,7 +39,7 @@
 }
 
 .highlight {
-  background: linear-gradient(135deg, #d2b48c 0%, #f5deb3 100%);
+  background: linear-gradient(135deg, #e94560 0%, #4a9eff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -34,14 +47,14 @@
 
 .hero-subtitle {
   font-size: 1.5rem;
-  color: #666;
+  color: #b8b8b8;
   margin-bottom: 1.5rem;
   font-weight: 400;
 }
 
 .hero-description {
   font-size: 1.2rem;
-  color: #555;
+  color: #b8b8b8;
   margin-bottom: 2rem;
   line-height: 1.7;
 }
@@ -63,9 +76,10 @@
   height: 300px;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0 20px 40px rgba(139, 125, 107, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   position: relative;
-  border: 4px solid #f5f5dc;
+  border: 4px solid rgba(74, 158, 255, 0.3);
+  backdrop-filter: blur(10px);
 }
 
 .profile-image {
@@ -102,21 +116,24 @@
 .stat-item {
   text-align: center;
   padding: 2rem;
-  background: white;
+  background: rgba(26, 26, 46, 0.8);
+  backdrop-filter: blur(20px);
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
+  border: 1px solid rgba(74, 158, 255, 0.2);
 }
 
 .stat-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  border-color: rgba(74, 158, 255, 0.4);
 }
 
 .stat-item h3 {
   font-size: 2.5rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #d2b48c 0%, #f5deb3 100%);
+  background: linear-gradient(135deg, #e94560 0%, #4a9eff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -124,7 +141,7 @@
 }
 
 .stat-item p {
-  color: #666;
+  color: #b8b8b8;
   font-size: 1rem;
   margin: 0;
 }

@@ -27,7 +27,7 @@ const Header: React.FC = () => {
       <div className="container">
         <div className="header-content">
           <div className="logo">
-            <span className="logo-text">ManiBharath</span>
+            <span className="logo-text">ManiBharath Bhadragiri</span>
           </div>
           
           <nav className={`nav ${isMobileMenuOpen ? 'nav-open' : ''}`}>

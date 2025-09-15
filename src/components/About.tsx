@@ -8,7 +8,7 @@ const About: React.FC = () => {
         <div className="about-content">
           <div className="about-text">
             <h1 className="hero-title">
-              Hi, I'm <span className="highlight">ManiBharath</span>
+              Hi, I'm <span className="highlight">ManiBharath Bhadragiri</span>
             </h1>
             <h2 className="hero-subtitle">IoT Engineer & Full Stack Developer</h2>
             <p className="hero-description">

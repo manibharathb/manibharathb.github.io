@@ -42,22 +42,22 @@ const Contact: React.FC = () => {
       link: 'mailto:bhadragiri.m@northeastern.edu'
     },
     {
-      icon: '🎓',
-      title: 'Education',
-      value: 'Northeastern University, Boston',
-      link: '#'
+      icon: '📱',
+      title: 'Phone',
+      value: '(857)-396-7208',
+      link: 'tel:+18573967208'
     },
     {
       icon: '📍',
       title: 'Location',
-      value: 'Boston, MA, USA',
+      value: 'Boston, MA',
       link: '#'
     },
     {
       icon: '💼',
       title: 'LinkedIn',
-      value: 'Linkedin.com/in/manibharathbhadragiri',
-      link: 'www.linkedin.com/in/manibharathbhadragiri'
+      value: 'linkedin.com/in/manibharathbhadragiri',
+      link: 'https://www.linkedin.com/in/manibharathbhadragiri'
     }
   ];
 
@@ -90,9 +90,9 @@ const Contact: React.FC = () => {
                 <span className="social-icon">🐙</span>
                 GitHub
               </a>
-              <a href="mailto:manibharath@northeastern.edu" className="social-link">
-                <span className="social-icon">📧</span>
-                Email
+              <a href="https://www.linkedin.com/in/manibharathbhadragiri" target="_blank" rel="noopener noreferrer" className="social-link">
+                <span className="social-icon">💼</span>
+                LinkedIn
               </a>
             </div>
           </div>

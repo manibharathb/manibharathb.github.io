@@ -9,14 +9,14 @@ const Footer: React.FC = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-info">
-            <h3>ManiBharath</h3>
+            <h3>ManiBharath Bhadragiri</h3>
             <p>Full Stack Developer passionate about creating amazing digital experiences.</p>
             <div className="footer-social">
               <a href="https://github.com/manibharathb" target="_blank" rel="noopener noreferrer" className="social-link">
                 <span className="social-icon">🐙</span>
               </a>
-              <a href="mailto:bhadragiri.m@northeastern.edu" className="social-link">
-                <span className="social-icon">📧</span>
+              <a href="https://www.linkedin.com/in/manibharathbhadragiri" target="_blank" rel="noopener noreferrer" className="social-link">
+                <span className="social-icon">💼</span>
               </a>
             </div>
           </div>
@@ -46,9 +46,9 @@ const Footer: React.FC = () => {
             <div className="footer-section">
               <h4>Contact Info</h4>
               <ul>
-                <li>📧 manibharath@northeastern.edu</li>
-                <li>🎓 Northeastern University</li>
-                <li>📍 Boston, MA, USA</li>
+                <li>📧 bhadragiri.m@northeastern.edu</li>
+                <li>📱 (857)-396-7208</li>
+                <li>📍 Boston, MA</li>
               </ul>
             </div>
           </div>
@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
         
         <div className="footer-bottom">
           <div className="footer-bottom-content">
-            <p>&copy; {currentYear} ManiBharath. All rights reserved.</p>
+            <p>&copy; {currentYear} ManiBharath Bhadragiri. All rights reserved.</p>
             <p>Built with ❤️ using React & TypeScript</p>
           </div>
         </div>

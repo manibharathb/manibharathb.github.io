@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
               </a>
             </div>
           </div>
-          
+
           <div className="footer-links">
             <div className="footer-section">
               <h4>Quick Links</h4>
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
                 <li><a href="#contact">Contact</a></li>
               </ul>
             </div>
-            
+
             <div className="footer-section">
               <h4>Technologies</h4>
               <ul>
@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
                 <li><a href="#skills">Python</a></li>
               </ul>
             </div>
-            
+
             <div className="footer-section">
               <h4>Contact Info</h4>
               <ul>
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="footer-bottom">
           <div className="footer-bottom-content">
             <p>&copy; {currentYear} ManiBharath Bhadragiri. All rights reserved.</p>
